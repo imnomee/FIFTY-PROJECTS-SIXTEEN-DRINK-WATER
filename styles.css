@@ -42,10 +42,10 @@ h3 {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-}
-.cup.cup-large {
     height: 330px;
     width: 150px;
+}
+.cup.cup-large {
 }
 .cup .remained {
     display: flex;
@@ -88,6 +88,7 @@ p {
     text-align: center;
     margin: 5px;
     transition: var(--transition);
+    cursor: pointer;
 }
 
 .cups {
